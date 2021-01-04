@@ -1,0 +1,106 @@
+{
+  "Vaseline (10/10)": {
+    "Facility": "Medstation 3",
+    "Time": "00:55:00",
+    "BuyPrice": "56,189₽",
+    "SellPrice": "81,072₽",
+    "Profit": "24,883₽",
+    "ProfitHour": "27,145₽/h"
+  },
+  "IFAK personal tactical first aid kit (300/300)": {
+    "Facility": "Medstation 2",
+    "Time": "00:50:00",
+    "BuyPrice": "15,800₽",
+    "SellPrice": "21,542₽",
+    "Profit": "5,742₽",
+    "ProfitHour": "6,890₽/h"
+  },
+  "AI-2 medikit": {
+    "Facility": "Medstation 1",
+    "Time": "00:22:00",
+    "BuyPrice": "5,900₽",
+    "SellPrice": "7,344₽",
+    "Profit": "1,444₽",
+    "ProfitHour": "3,938₽/h"
+  },
+  "Pile of meds": {
+    "Facility": "Medstation 2",
+    "Time": "00:48:00",
+    "BuyPrice": "12,919₽",
+    "SellPrice": "18,984₽",
+    "Profit": "6,065₽",
+    "ProfitHour": "7,581₽/h"
+  },
+  "Salewa FIRST AID KIT (400/400)": {
+    "Facility": "Medstation 1",
+    "Time": "00:33:00",
+    "BuyPrice": "17,169₽",
+    "SellPrice": "18,136₽",
+    "Profit": "967₽",
+    "ProfitHour": "1,758₽/h"
+  },
+  "Portable defibrillator": {
+    "Facility": "Medstation 2",
+    "Time": "05:15:00",
+    "BuyPrice": "147,074₽",
+    "SellPrice": "207,414₽",
+    "Profit": "60,340₽",
+    "ProfitHour": "11,493₽/h"
+  },
+  "Propital": {
+    "Facility": "Medstation 3",
+    "Time": "01:21:00",
+    "BuyPrice": "107,283₽",
+    "SellPrice": "114,205₽",
+    "Profit": "6,922₽",
+    "ProfitHour": "5,127₽/h"
+  },
+  "Grizzly First Aid Kit (1800/1800)": {
+    "Facility": "Medstation 3",
+    "Time": "00:58:00",
+    "BuyPrice": "29,500₽",
+    "SellPrice": "23,920₽",
+    "Profit": "-5,580₽",
+    "ProfitHour": "-5,772₽/h"
+  },
+  "Morphine injector": {
+    "Facility": "Medstation 2",
+    "Time": "01:12:00",
+    "BuyPrice": "23,902₽",
+    "SellPrice": "10,650₽",
+    "Profit": "-13,252₽",
+    "ProfitHour": "-11,043₽/h"
+  },
+  "Combat stimulant injector SJ6 TGLabs": {
+    "Facility": "Medstation 3",
+    "Time": "01:25:00",
+    "BuyPrice": "110,453₽",
+    "SellPrice": "105,442₽",
+    "Profit": "-5,011₽",
+    "ProfitHour": "-3,537₽/h"
+  },
+  "Surv12 field surgical kit (15/15)": {
+    "Facility": "Medstation 3",
+    "Time": "01:16:00",
+    "BuyPrice": "105,119₽",
+    "SellPrice": "79,380₽",
+    "Profit": "-25,739₽",
+    "ProfitHour": "-20,320₽/h"
+  },
+  "Medical bloodset": {
+    "Facility": "Medstation 2",
+    "Time": "00:27:00",
+    "BuyPrice": "41,342₽",
+    "SellPrice": "35,656₽",
+    "Profit": "-5,686₽",
+    "ProfitHour": "-12,636₽/h"
+  },
+  "Combat stimulant injector SJ1 TGLabs": {
+    "Facility": "Medstation 2",
+    "Time": "00:49:00",
+    "BuyPrice": "256,763₽",
+    "SellPrice": "101,555₽",
+    "Profit": "-155,208₽",
+    "ProfitHour": "-190,051₽/h"
+  }
+}
