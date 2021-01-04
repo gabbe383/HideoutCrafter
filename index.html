@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <!-- Ta inte bort det här skriptet -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </head>
+
+  <body>
+    <!-- Lägg din html innanför div-taggen med id="app" -->
+    <div id="app">
+      <div v-for="data in myJson">{{data}}</div>
+    </div>
+
+    <!-- Lägg din javascript innanför script-taggen -->
+    <script>
+      import json from "./Prices.json";
+      var app = new Vue({
+        el: "#app",
+        data: {
+          myJson: json,
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -45,16 +45,31 @@ function getPrices(arg) {
           short = data.recipes[x];
 
           let buyPrice = 0;
+          inputDict = {};
           for (y in short.input) {
             if (short.input[y].price > short.input[y].avgDayPrice) {
+              inputDict[short.input[y].name] = {
+                Amount: short.input[y].amount,
+                Price: short.input[y].avgDayPrice,
+              };
               buyPrice += short.input[y].amount * short.input[y].avgDayPrice;
             } else {
               buyPrice += short.input[y].amount * short.input[y].price;
+              inputDict[short.input[y].name] = {
+                Amount: short.input[y].amount,
+                Price: short.input[y].price,
+              };
             }
           }
 
           let sellPrice = short.output.amount * short.output.avgDayPrice;
           let profit = sellPrice - buyPrice;
+
+          outputDict = {};
+          outputDict[short.output.name] = {
+            Amount: short.output.amount,
+            Price: short.output.avgDayPrice,
+          };
 
           var hms = short.time;
           var a = hms.split(":");
@@ -72,6 +87,8 @@ function getPrices(arg) {
             Time: short.time,
             BuyPrice: buyPrice + "₽",
             SellPrice: sellPrice + "₽",
+            Input: inputDict,
+            Output: outputDict,
             Profit: profit + "₽",
             ProfitHour: profitHour + "₽/h",
           };
