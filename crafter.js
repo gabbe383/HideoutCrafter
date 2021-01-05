@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 fs = require("fs");
 
-crafts = {};
+crafts = [];
 let skip = 0;
 
 function getPrices(arg) {
@@ -49,15 +49,15 @@ function getPrices(arg) {
           for (y in short.input) {
             if (short.input[y].price > short.input[y].avgDayPrice) {
               inputDict[short.input[y].name] = {
-                Amount: short.input[y].amount,
-                Price: short.input[y].avgDayPrice,
+                amount: short.input[y].amount.toFixed(0),
+                price: short.input[y].avgDayPrice.toFixed(0),
               };
               buyPrice += short.input[y].amount * short.input[y].avgDayPrice;
             } else {
               buyPrice += short.input[y].amount * short.input[y].price;
               inputDict[short.input[y].name] = {
-                Amount: short.input[y].amount,
-                Price: short.input[y].price,
+                amount: short.input[y].amount,
+                price: short.input[y].price,
               };
             }
           }
@@ -67,8 +67,8 @@ function getPrices(arg) {
 
           outputDict = {};
           outputDict[short.output.name] = {
-            Amount: short.output.amount,
-            Price: short.output.avgDayPrice,
+            amount: short.output.amount.toFixed(0),
+            price: short.output.avgDayPrice.toFixed(0),
           };
 
           var hms = short.time;
@@ -76,22 +76,22 @@ function getPrices(arg) {
           var hours = (a[0] * 60 + +a[1]) / 60;
 
           profitHour = (profit / hours).toFixed(0);
-          buyPrice = addDot(buyPrice);
-          sellPrice = addDot(sellPrice);
-          profit = addDot(profit);
+          // buyPrice = addDot(buyPrice);
+          // sellPrice = addDot(sellPrice);
+          // profit = addDot(profit);
+          // profitHour = addDot(profitHour);
 
-          profitHour = addDot(profitHour);
-
-          crafts[short.output.name] = {
-            Facility: short.facility.name + " " + short.facility.level,
-            Time: short.time,
-            BuyPrice: buyPrice + "₽",
-            SellPrice: sellPrice + "₽",
-            Input: inputDict,
-            Output: outputDict,
-            Profit: profit + "₽",
-            ProfitHour: profitHour + "₽/h",
-          };
+          crafts.push({
+            facility: short.facility.name + " " + short.facility.level,
+            name: short.output.name,
+            time: short.time,
+            buyPrice: buyPrice,
+            sellPrice: sellPrice,
+            input: inputDict,
+            output: outputDict,
+            profit: profit,
+            profitHour: profitHour,
+          });
         }
 
         skip += 20;
