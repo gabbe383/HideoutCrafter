@@ -1,0 +1,1391 @@
+[
+  {
+    "facility": "Christmas Tree 1",
+    "name": "Weapon case",
+    "time": "04:51:00",
+    "buyPrice": 276000,
+    "sellPrice": 3292853,
+    "input": {
+      "Christmas tree decoration ball (violet)": {
+        "amount": 13,
+        "price": 12000
+      },
+      "Christmas tree decoration ball (silver)": { "amount": 20, "price": 6000 }
+    },
+    "output": { "Weapon case": { "amount": "1", "price": "3292853" } },
+    "profit": 3016853,
+    "profitHour": "622032"
+  },
+  {
+    "facility": "Christmas Tree 1",
+    "name": "LEDX Skin Transilluminator",
+    "time": "03:28:00",
+    "buyPrice": 204000,
+    "sellPrice": 1006957,
+    "input": {
+      "Christmas tree decoration ball (silver)": {
+        "amount": 30,
+        "price": 6000
+      },
+      "Christmas tree decoration ball (violet)": { "amount": 2, "price": 12000 }
+    },
+    "output": {
+      "LEDX Skin Transilluminator": { "amount": "1", "price": "1006957" }
+    },
+    "profit": 802957,
+    "profitHour": "231622"
+  },
+  {
+    "facility": "Christmas Tree 1",
+    "name": "Graphics card",
+    "time": "02:10:00",
+    "buyPrice": 45000,
+    "sellPrice": 363239,
+    "input": {
+      "Christmas tree decoration ball (red)": { "amount": 5, "price": 4200 },
+      "Christmas tree decoration ball (violet)": { "amount": 2, "price": 12000 }
+    },
+    "output": { "Graphics card": { "amount": "1", "price": "363239" } },
+    "profit": 318239,
+    "profitHour": "146880"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "Gunpowder \"Hawk\"",
+    "time": "00:35:00",
+    "buyPrice": 77681,
+    "sellPrice": 97018,
+    "input": {
+      "Gunpowder \"Kite\"": { "amount": "1", "price": "9568" },
+      "Gunpowder \"Eagle\"": { "amount": "1", "price": "61113" },
+      "Classic matches": { "amount": 1, "price": 7000 }
+    },
+    "output": { "Gunpowder \"Hawk\"": { "amount": "2", "price": "48509" } },
+    "profit": 19337,
+    "profitHour": "33149"
+  },
+  {
+    "facility": "Christmas Tree 1",
+    "name": "M.U.L.E. stimulator",
+    "time": "01:13:00",
+    "buyPrice": 18000,
+    "sellPrice": 63250,
+    "input": {
+      "Christmas tree decoration ball (silver)": { "amount": 3, "price": 6000 }
+    },
+    "output": { "M.U.L.E. stimulator": { "amount": "1", "price": "63250" } },
+    "profit": 45250,
+    "profitHour": "37192"
+  },
+  {
+    "facility": "Christmas Tree 1",
+    "name": "TDI KRISS Vector Gen.2 .45 ACP submachinegun",
+    "time": "01:26:00",
+    "buyPrice": 12600,
+    "sellPrice": 54359,
+    "input": {
+      "Christmas tree decoration ball (red)": { "amount": 3, "price": 4200 }
+    },
+    "output": {
+      "TDI KRISS Vector Gen.2 .45 ACP submachinegun": {
+        "amount": "1",
+        "price": "54359"
+      }
+    },
+    "profit": 41759,
+    "profitHour": "29134"
+  },
+  {
+    "facility": "Christmas Tree 1",
+    "name": "Oakley Mechanism heavy duty backpack (black)",
+    "time": "01:32:00",
+    "buyPrice": 30000,
+    "sellPrice": 80231,
+    "input": {
+      "Christmas tree decoration ball (silver)": { "amount": 5, "price": 6000 }
+    },
+    "output": {
+      "Oakley Mechanism heavy duty backpack (black)": {
+        "amount": "1",
+        "price": "80231"
+      }
+    },
+    "profit": 50231,
+    "profitHour": "32759"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": ".366 AP",
+    "time": "01:43:00",
+    "buyPrice": 34100,
+    "sellPrice": 76400,
+    "input": {
+      "9x39 mm SP-6": { "amount": "50", "price": "508" },
+      "7.62x39 mm PS": { "amount": "100", "price": "87" }
+    },
+    "output": { ".366 AP": { "amount": "100", "price": "764" } },
+    "profit": 42300,
+    "profitHour": "24641"
+  },
+  {
+    "facility": "Water Collector 3",
+    "name": "Purified water",
+    "time": "05:25:00",
+    "buyPrice": 17831.45,
+    "sellPrice": 127433,
+    "input": { "Water filter": { "amount": "1", "price": "27433" } },
+    "output": { "Purified water": { "amount": "1", "price": "127433" } },
+    "profit": 109601.55,
+    "profitHour": "20234"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "Lucky Scav Junkbox",
+    "time": "11:23:00",
+    "buyPrice": 1526232,
+    "sellPrice": 1939858,
+    "input": {
+      "Magazine case": { "amount": "3", "price": "360545" },
+      "Metal cutting scissors": { "amount": 1, "price": 36000 },
+      "Bolts": { "amount": "6", "price": "44211" },
+      "KEKTAPE duct tape": { "amount": 3, "price": 47777 }
+    },
+    "output": { "Lucky Scav Junkbox": { "amount": "1", "price": "1939858" } },
+    "profit": 413626,
+    "profitHour": "36336"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "7.62x39 mm BP",
+    "time": "04:26:00",
+    "buyPrice": 122226,
+    "sellPrice": 230100,
+    "input": { "Gunpowder \"Eagle\"": { "amount": "2", "price": "61113" } },
+    "output": { "7.62x39 mm BP": { "amount": "260", "price": "885" } },
+    "profit": 107874,
+    "profitHour": "24332"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "9x18 mm PM PBM",
+    "time": "02:13:00",
+    "buyPrice": 48936,
+    "sellPrice": 89200,
+    "input": {
+      "Gunpowder \"Kite\"": { "amount": "2", "price": "9568" },
+      "9x18 mm PM Pst gzh": { "amount": 200, "price": 149 }
+    },
+    "output": { "9x18 mm PM PBM": { "amount": "200", "price": "446" } },
+    "profit": 40264,
+    "profitHour": "18164"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "5.56x45 mm M995",
+    "time": "04:19:00",
+    "buyPrice": 262226,
+    "sellPrice": 360300,
+    "input": {
+      "Gunpowder \"Eagle\"": { "amount": "2", "price": "61113" },
+      "OFZ 30x160mm shell": { "amount": 2, "price": 70000 }
+    },
+    "output": { "5.56x45 mm M995": { "amount": "300", "price": "1201" } },
+    "profit": 98074,
+    "profitHour": "22720"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "RGD-5 hand grenade",
+    "time": "01:28:00",
+    "buyPrice": 70000,
+    "sellPrice": 103640,
+    "input": { "OFZ 30x160mm shell": { "amount": 1, "price": 70000 } },
+    "output": { "RGD-5 hand grenade": { "amount": "10", "price": "10364" } },
+    "profit": 33640,
+    "profitHour": "22936"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "12/70 AP-20 Slug",
+    "time": "02:28:00",
+    "buyPrice": 66509,
+    "sellPrice": 116400,
+    "input": {
+      "Gunpowder \"Hawk\"": { "amount": "1", "price": "48509" },
+      "Damaged hard drive": { "amount": 2, "price": 9000 }
+    },
+    "output": { "12/70 AP-20 Slug": { "amount": "120", "price": "970" } },
+    "profit": 49891,
+    "profitHour": "20226"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "5.56x45 mm M856A1",
+    "time": "04:25:00",
+    "buyPrice": 123658,
+    "sellPrice": 213120,
+    "input": {
+      "5.56x45 mm M855": { "amount": 180, "price": 148 },
+      "Gunpowder \"Hawk\"": { "amount": "2", "price": "48509" }
+    },
+    "output": { "5.56x45 mm M856A1": { "amount": "360", "price": "592" } },
+    "profit": 89462,
+    "profitHour": "20256"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "9x19 mm AP 6.3",
+    "time": "02:27:00",
+    "buyPrice": 111018,
+    "sellPrice": 173800,
+    "input": {
+      "9x19 mm Pst gzh": { "amount": 200, "price": 70 },
+      "Gunpowder \"Hawk\"": { "amount": "2", "price": "48509" }
+    },
+    "output": { "9x19 mm AP 6.3": { "amount": "200", "price": "869" } },
+    "profit": 62782,
+    "profitHour": "25625"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "9x19 mm 7N31",
+    "time": "05:34:00",
+    "buyPrice": 281889,
+    "sellPrice": 404700,
+    "input": {
+      "Gunpowder \"Eagle\"": { "amount": "3", "price": "61113" },
+      "Gunpowder \"Kite\"": { "amount": "3", "price": "9568" },
+      "9x19 mm Pst gzh": { "amount": 300, "price": 70 },
+      "A pack of nails": { "amount": "3", "price": "16282" }
+    },
+    "output": { "9x19 mm 7N31": { "amount": "300", "price": "1349" } },
+    "profit": 122811,
+    "profitHour": "22062"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "Wires",
+    "time": "01:58:00",
+    "buyPrice": 61340,
+    "sellPrice": 104512,
+    "input": { "Powercord": { "amount": "2", "price": "30670" } },
+    "output": { "Wires": { "amount": "8", "price": "13064" } },
+    "profit": 43172,
+    "profitHour": "21952"
+  },
+  {
+    "facility": "Nutrition Unit 2",
+    "name": "Slickers bar",
+    "time": "01:11:00",
+    "buyPrice": 28999,
+    "sellPrice": 36911,
+    "input": {
+      "Alyonka chocolate bar": { "amount": 1, "price": 14000 },
+      "Pack of oat flakes": { "amount": 1, "price": 5000 },
+      "Army Crackers": { "amount": 1, "price": 9999 }
+    },
+    "output": { "Slickers bar": { "amount": "7", "price": "5273" } },
+    "profit": 7912,
+    "profitHour": "6686"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "AK-74M 5.45x39 assault rifle",
+    "time": "01:23:00",
+    "buyPrice": 14774,
+    "sellPrice": 24346,
+    "input": {
+      "Weapon parts": { "amount": "1", "price": "8542" },
+      "Polymer AK-74 foregrip (6P20 Sb.9)": { "amount": "1", "price": "3232" },
+      "Polymer stock for AK-74M (6P34 Sb.15)": { "amount": 1, "price": 3000 }
+    },
+    "output": {
+      "AK-74M 5.45x39 assault rifle": { "amount": "1", "price": "24346" }
+    },
+    "profit": 9572,
+    "profitHour": "6920"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "Gunpowder \"Hawk\"",
+    "time": "01:52:00",
+    "buyPrice": 89136,
+    "sellPrice": 97018,
+    "input": {
+      "OFZ 30x160mm shell": { "amount": 1, "price": 70000 },
+      "Gunpowder \"Kite\"": { "amount": "2", "price": "9568" }
+    },
+    "output": { "Gunpowder \"Hawk\"": { "amount": "2", "price": "48509" } },
+    "profit": 7882,
+    "profitHour": "4223"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "Powercord",
+    "time": "00:35:00",
+    "buyPrice": 68000,
+    "sellPrice": 61340,
+    "input": {
+      "T-Shaped Plug": { "amount": 2, "price": 8500 },
+      "Wires": { "amount": 2, "price": 13000 },
+      "Insulating tape": { "amount": 1, "price": 25000 }
+    },
+    "output": { "Powercord": { "amount": "2", "price": "30670" } },
+    "profit": -6660,
+    "profitHour": "-11417"
+  },
+  {
+    "facility": "Intelligence Center 2",
+    "name": "VPX Flash Storage Module",
+    "time": "45:50:00",
+    "buyPrice": 80071,
+    "sellPrice": 432570,
+    "input": {
+      "RAM": { "amount": "3", "price": "11744" },
+      "SSD drive": { "amount": "1", "price": "31547" },
+      "Broken GPhone": { "amount": "1", "price": "13292" }
+    },
+    "output": {
+      "VPX Flash Storage Module": { "amount": "2", "price": "216285" }
+    },
+    "profit": 352499,
+    "profitHour": "7691"
+  },
+  {
+    "facility": "Medstation 2",
+    "name": "Pile of meds",
+    "time": "00:48:00",
+    "buyPrice": 13456,
+    "sellPrice": 20226,
+    "input": {
+      "AI-2 medikit": { "amount": "1", "price": "2530" },
+      "Aseptic bandage": { "amount": 1, "price": 1999 },
+      "Augmentin antibiotic pills": { "amount": "1", "price": "8927" }
+    },
+    "output": { "Pile of meds": { "amount": "3", "price": "6742" } },
+    "profit": 6770,
+    "profitHour": "8463"
+  },
+  {
+    "facility": "Lavatory 1",
+    "name": "Scav Backpack",
+    "time": "00:55:00",
+    "buyPrice": 23547,
+    "sellPrice": 31826,
+    "input": {
+      "Fleece cloth": { "amount": "1", "price": "16548" },
+      "Ripstop cloth": { "amount": 1, "price": 6999 }
+    },
+    "output": { "Scav Backpack": { "amount": "2", "price": "15913" } },
+    "profit": 8279,
+    "profitHour": "9032"
+  },
+  {
+    "facility": "Christmas Tree 1",
+    "name": "HK UMP 45 submachinegun",
+    "time": "01:39:00",
+    "buyPrice": 22200,
+    "sellPrice": 30879,
+    "input": {
+      "Christmas tree decoration ball (silver)": { "amount": 1, "price": 6000 },
+      "Christmas tree decoration ball (red)": { "amount": 1, "price": 4200 },
+      "Christmas tree decoration ball (violet)": { "amount": 1, "price": 12000 }
+    },
+    "output": {
+      "HK UMP 45 submachinegun": { "amount": "1", "price": "30879" }
+    },
+    "profit": 8679,
+    "profitHour": "5260"
+  },
+  {
+    "facility": "Christmas Tree 1",
+    "name": "Special Sniper Rifle VSS Vintorez",
+    "time": "01:43:00",
+    "buyPrice": 36000,
+    "sellPrice": 50146,
+    "input": {
+      "Christmas tree decoration ball (violet)": { "amount": 3, "price": 12000 }
+    },
+    "output": {
+      "Special Sniper Rifle VSS Vintorez": { "amount": "1", "price": "50146" }
+    },
+    "profit": 14146,
+    "profitHour": "8240"
+  },
+  {
+    "facility": "Nutrition Unit 3",
+    "name": "Hot Rod",
+    "time": "05:15:00",
+    "buyPrice": 180471,
+    "sellPrice": 221760,
+    "input": {
+      "Purified water": { "amount": "1", "price": "127433" },
+      "Pack of sugar": { "amount": "1", "price": "20939" },
+      "Coffee Majaica": { "amount": "1", "price": "14416" },
+      "42nd Signature Blend English Tea": { "amount": "1", "price": "17683" }
+    },
+    "output": { "Hot Rod": { "amount": "20", "price": "11088" } },
+    "profit": 41289,
+    "profitHour": "7865"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "Magazine case",
+    "time": "04:52:00",
+    "buyPrice": 279561,
+    "sellPrice": 360545,
+    "input": {
+      "Expeditionary fuel tank (0/60)": { "amount": "2", "price": "37509" },
+      "Metal cutting scissors": { "amount": 1, "price": 36000 },
+      "Bolts": { "amount": "3", "price": "44211" },
+      "Screw nut": { "amount": "3", "price": "11970" }
+    },
+    "output": { "Magazine case": { "amount": "1", "price": "360545" } },
+    "profit": 80984,
+    "profitHour": "16641"
+  },
+  {
+    "facility": "Medstation 3",
+    "name": "Vaseline (10/10)",
+    "time": "00:55:00",
+    "buyPrice": 65530,
+    "sellPrice": 79936,
+    "input": {
+      "Soap": { "amount": "3", "price": "14596" },
+      "Schaman shampoo": { "amount": 1, "price": 15000 },
+      "Pile of meds": { "amount": "1", "price": "6742" }
+    },
+    "output": { "Vaseline (10/10)": { "amount": "2", "price": "39968" } },
+    "profit": 14406,
+    "profitHour": "15716"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "Gunpowder \"Kite\"",
+    "time": "01:29:00",
+    "buyPrice": 5390,
+    "sellPrice": 9568,
+    "input": { "5.45x39 mm PS": { "amount": "70", "price": "77" } },
+    "output": { "Gunpowder \"Kite\"": { "amount": "1", "price": "9568" } },
+    "profit": 4178,
+    "profitHour": "2817"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "7.62x51 mm M61",
+    "time": "04:58:00",
+    "buyPrice": 320054,
+    "sellPrice": 400500,
+    "input": {
+      "Gunpowder \"Hawk\"": { "amount": "6", "price": "48509" },
+      "Radiator helix": { "amount": 2, "price": 14500 }
+    },
+    "output": { "7.62x51 mm M61": { "amount": "300", "price": "1335" } },
+    "profit": 80446,
+    "profitHour": "16197"
+  },
+  {
+    "facility": "Intelligence Center 3",
+    "name": "Folder with intelligence",
+    "time": "31:40:00",
+    "buyPrice": 108114,
+    "sellPrice": 198546,
+    "input": { "Secure Flash drive": { "amount": "3", "price": "36038" } },
+    "output": {
+      "Folder with intelligence": { "amount": "1", "price": "198546" }
+    },
+    "profit": 90432,
+    "profitHour": "2856"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "12/70 8.5 mm \"Magnum\" Buckshot",
+    "time": "01:31:00",
+    "buyPrice": 16568,
+    "sellPrice": 24600,
+    "input": {
+      "Gunpowder \"Kite\"": { "amount": "1", "price": "9568" },
+      "Classic matches": { "amount": 1, "price": 7000 }
+    },
+    "output": {
+      "12/70 8.5 mm \"Magnum\" Buckshot": { "amount": "120", "price": "205" }
+    },
+    "profit": 8032,
+    "profitHour": "5296"
+  },
+  {
+    "facility": "Intelligence Center 2",
+    "name": "Secure Flash drive",
+    "time": "34:13:00",
+    "buyPrice": 63839,
+    "sellPrice": 108114,
+    "input": {
+      "Broken GPhone": { "amount": "1", "price": "13292" },
+      "Broken GPhone X": { "amount": 1, "price": 19000 },
+      "SSD drive": { "amount": "1", "price": "31547" }
+    },
+    "output": { "Secure Flash drive": { "amount": "3", "price": "36038" } },
+    "profit": 44275,
+    "profitHour": "1294"
+  },
+  {
+    "facility": "Medstation 1",
+    "name": "AI-2 medikit",
+    "time": "00:22:00",
+    "buyPrice": 6742,
+    "sellPrice": 7590,
+    "input": { "Pile of meds": { "amount": "1", "price": "6742" } },
+    "output": { "AI-2 medikit": { "amount": "3", "price": "2530" } },
+    "profit": 848,
+    "profitHour": "2313"
+  },
+  {
+    "facility": "Intelligence Center 2",
+    "name": "Graphics card",
+    "time": "48:36:00",
+    "buyPrice": 294798,
+    "sellPrice": 363239,
+    "input": {
+      "Printed circuit board": { "amount": "2", "price": "13028" },
+      "PC CPU": { "amount": 1, "price": 8000 },
+      "CPU Fan": { "amount": "2", "price": "25371" },
+      "VPX Flash Storage Module": { "amount": 1, "price": 210000 }
+    },
+    "output": { "Graphics card": { "amount": "1", "price": "363239" } },
+    "profit": 68441,
+    "profitHour": "1408"
+  },
+  {
+    "facility": "Booze Generator 1",
+    "name": "\"Fierce Hatchling\" moonshine",
+    "time": "03:03:00",
+    "buyPrice": 169311,
+    "sellPrice": 205409,
+    "input": {
+      "Pack of sugar": { "amount": "2", "price": "20939" },
+      "Purified water": { "amount": "1", "price": "127433" }
+    },
+    "output": {
+      "\"Fierce Hatchling\" moonshine": { "amount": "1", "price": "205409" }
+    },
+    "profit": 36098,
+    "profitHour": "11835"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "Corrugated hose",
+    "time": "03:21:00",
+    "buyPrice": 130944,
+    "sellPrice": 171140,
+    "input": {
+      "Silicone tube": { "amount": "1", "price": "16944" },
+      "Wires": { "amount": 3, "price": 13000 },
+      "Insulating tape": { "amount": 3, "price": 25000 }
+    },
+    "output": { "Corrugated hose": { "amount": "2", "price": "85570" } },
+    "profit": 40196,
+    "profitHour": "11999"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "9x18mm PM RG028 gzh",
+    "time": "01:43:00",
+    "buyPrice": 9568,
+    "sellPrice": 12320,
+    "input": { "Gunpowder \"Kite\"": { "amount": "1", "price": "9568" } },
+    "output": { "9x18mm PM RG028 gzh": { "amount": "140", "price": "88" } },
+    "profit": 2752,
+    "profitHour": "1603"
+  },
+  {
+    "facility": "Christmas Tree 1",
+    "name": "Car first aid kit (220/220)",
+    "time": "00:35:00",
+    "buyPrice": 6000,
+    "sellPrice": 5551,
+    "input": {
+      "Christmas tree decoration ball (silver)": { "amount": 1, "price": 6000 }
+    },
+    "output": {
+      "Car first aid kit (220/220)": { "amount": "1", "price": "5551" }
+    },
+    "profit": -449,
+    "profitHour": "-770"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "9x19 mm RIP",
+    "time": "02:05:00",
+    "buyPrice": 100509,
+    "sellPrice": 142920,
+    "input": {
+      "Gunpowder \"Hawk\"": { "amount": "1", "price": "48509" },
+      "Wires": { "amount": 4, "price": 13000 }
+    },
+    "output": { "9x19 mm RIP": { "amount": "180", "price": "794" } },
+    "profit": 42411,
+    "profitHour": "20357"
+  },
+  {
+    "facility": "Medstation 1",
+    "name": "Salewa FIRST AID KIT (400/400)",
+    "time": "00:33:00",
+    "buyPrice": 17405,
+    "sellPrice": 18620,
+    "input": {
+      "Analgin painkillers": { "amount": "2", "price": "5219" },
+      "Aseptic bandage": { "amount": 2, "price": 1999 },
+      "Immobilizing splint": { "amount": "1", "price": "2969" }
+    },
+    "output": {
+      "Salewa FIRST AID KIT (400/400)": { "amount": "1", "price": "18620" }
+    },
+    "profit": 1215,
+    "profitHour": "2209"
+  },
+  {
+    "facility": "Intelligence Center 2",
+    "name": "Virtex programmable processor",
+    "time": "37:36:00",
+    "buyPrice": 340384,
+    "sellPrice": 352587,
+    "input": {
+      "Military circuit board": { "amount": "2", "price": "129692" },
+      "PC CPU": { "amount": 2, "price": 8000 },
+      "Capacitors": { "amount": 5, "price": 13000 }
+    },
+    "output": {
+      "Virtex programmable processor": { "amount": "1", "price": "352587" }
+    },
+    "profit": 12203,
+    "profitHour": "325"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "Weapon parts",
+    "time": "01:18:00",
+    "buyPrice": 17894,
+    "sellPrice": 17084,
+    "input": {
+      "Vepr AKM / VPO-209 366TKM carbine": { "amount": "1", "price": "17894" }
+    },
+    "output": { "Weapon parts": { "amount": "2", "price": "8542" } },
+    "profit": -810,
+    "profitHour": "-623"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "Schaman shampoo",
+    "time": "00:35:00",
+    "buyPrice": 24695,
+    "sellPrice": 33230,
+    "input": {
+      "Soap": { "amount": "1", "price": "14596" },
+      "0.6L water bottle": { "amount": 1, "price": 10099 }
+    },
+    "output": { "Schaman shampoo": { "amount": "2", "price": "16615" } },
+    "profit": 8535,
+    "profitHour": "14631"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "Printed circuit board",
+    "time": "00:33:00",
+    "buyPrice": 26111,
+    "sellPrice": 26056,
+    "input": {
+      "Flat screwdriver": { "amount": 1, "price": 15000 },
+      "DVD drive": { "amount": 1, "price": 11111 }
+    },
+    "output": { "Printed circuit board": { "amount": "2", "price": "13028" } },
+    "profit": -55,
+    "profitHour": "-100"
+  },
+  {
+    "facility": "Medstation 2",
+    "name": "IFAK personal tactical first aid kit (300/300)",
+    "time": "00:50:00",
+    "buyPrice": 17884,
+    "sellPrice": 21336,
+    "input": {
+      "Pile of meds": { "amount": "2", "price": "6742" },
+      "Army bandage": { "amount": 2, "price": 2200 }
+    },
+    "output": {
+      "IFAK personal tactical first aid kit (300/300)": {
+        "amount": "2",
+        "price": "10668"
+      }
+    },
+    "profit": 3452,
+    "profitHour": "4142"
+  },
+  {
+    "facility": "Intelligence Center 2",
+    "name": "Military COFDM wireless Signal Transmitter",
+    "time": "38:53:00",
+    "buyPrice": 180532,
+    "sellPrice": 104204,
+    "input": {
+      "Broken GPhone X": { "amount": 1, "price": 19000 },
+      "Powerbank": { "amount": "1", "price": "31840" },
+      "Military circuit board": { "amount": "1", "price": "129692" }
+    },
+    "output": {
+      "Military COFDM wireless Signal Transmitter": {
+        "amount": "1",
+        "price": "104204"
+      }
+    },
+    "profit": -76328,
+    "profitHour": "-1963"
+  },
+  {
+    "facility": "Nutrition Unit 2",
+    "name": "Wilston cigarettes",
+    "time": "01:41:00",
+    "buyPrice": 24268,
+    "sellPrice": 23050,
+    "input": {
+      "Apollon Soyuz cigarettes": { "amount": "1", "price": "6585" },
+      "42nd Signature Blend English Tea": { "amount": "1", "price": "17683" }
+    },
+    "output": { "Wilston cigarettes": { "amount": "5", "price": "4610" } },
+    "profit": -1218,
+    "profitHour": "-724"
+  },
+  {
+    "facility": "Nutrition Unit 2",
+    "name": "Condensed milk",
+    "time": "01:21:00",
+    "buyPrice": 40939,
+    "sellPrice": 47274,
+    "input": {
+      "Pack of sugar": { "amount": "1", "price": "20939" },
+      "Pack of milk": { "amount": 1, "price": 20000 }
+    },
+    "output": { "Condensed milk": { "amount": "3", "price": "15758" } },
+    "profit": 6335,
+    "profitHour": "4693"
+  },
+  {
+    "facility": "Nutrition Unit 2",
+    "name": "Pack of sugar",
+    "time": "01:23:00",
+    "buyPrice": 28000,
+    "sellPrice": 20939,
+    "input": { "Alyonka chocolate bar": { "amount": 2, "price": 14000 } },
+    "output": { "Pack of sugar": { "amount": "1", "price": "20939" } },
+    "profit": -7061,
+    "profitHour": "-5104"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "WD-40 100ml.",
+    "time": "02:30:00",
+    "buyPrice": 49000,
+    "sellPrice": 28670,
+    "input": {
+      "WD-40 400ml": { "amount": 1, "price": 13000 },
+      "Metal cutting scissors": { "amount": 1, "price": 36000 }
+    },
+    "output": { "WD-40 100ml.": { "amount": "2", "price": "14335" } },
+    "profit": -20330,
+    "profitHour": "-8132"
+  },
+  {
+    "facility": "Nutrition Unit 3",
+    "name": "Water bottle with a filter Aquamari",
+    "time": "01:50:00",
+    "buyPrice": 144377,
+    "sellPrice": 140784,
+    "input": {
+      "Purified water": { "amount": "1", "price": "127433" },
+      "Silicone tube": { "amount": "1", "price": "16944" }
+    },
+    "output": {
+      "Water bottle with a filter Aquamari": { "amount": "8", "price": "17598" }
+    },
+    "profit": -3593,
+    "profitHour": "-1960"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "VOG-25 Khattabka grenade",
+    "time": "01:06:00",
+    "buyPrice": 106210,
+    "sellPrice": 134696,
+    "input": {
+      "UZRGM grenade fuze": { "amount": 5, "price": 9000 },
+      "40 mm VOG-25": { "amount": "5", "price": "12242" }
+    },
+    "output": {
+      "VOG-25 Khattabka grenade": { "amount": "8", "price": "16837" }
+    },
+    "profit": 28486,
+    "profitHour": "25896"
+  },
+  {
+    "facility": "Medstation 2",
+    "name": "Portable defibrillator",
+    "time": "05:15:00",
+    "buyPrice": 148640,
+    "sellPrice": 140838,
+    "input": {
+      "Magnet": { "amount": 2, "price": 12900 },
+      "Wires": { "amount": 3, "price": 13000 },
+      "Capacitors": { "amount": 4, "price": 13000 },
+      "Powerbank": { "amount": "1", "price": "31840" }
+    },
+    "output": {
+      "Portable defibrillator": { "amount": "1", "price": "140838" }
+    },
+    "profit": -7802,
+    "profitHour": "-1486"
+  },
+  {
+    "facility": "Medstation 3",
+    "name": "Combat stimulant injector SJ6 TGLabs",
+    "time": "01:25:00",
+    "buyPrice": 102262,
+    "sellPrice": 103494,
+    "input": {
+      "Combat stimulant injector SJ1 TGLabs": { "amount": 1, "price": 21000 },
+      "Pile of meds": { "amount": "2", "price": "6742" },
+      "Saline solution": { "amount": 1, "price": 67778 }
+    },
+    "output": {
+      "Combat stimulant injector SJ6 TGLabs": {
+        "amount": "2",
+        "price": "51747"
+      }
+    },
+    "profit": 1232,
+    "profitHour": "870"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "5.45x39 mm PP",
+    "time": "03:35:00",
+    "buyPrice": 103822,
+    "sellPrice": 91680,
+    "input": {
+      "5.45x39 mm PS": { "amount": "200", "price": "77" },
+      "Bolts": { "amount": "2", "price": "44211" }
+    },
+    "output": { "5.45x39 mm PP": { "amount": "480", "price": "191" } },
+    "profit": -12142,
+    "profitHour": "-3388"
+  },
+  {
+    "facility": "Medstation 3",
+    "name": "Grizzly First Aid Kit (1800/1800)",
+    "time": "00:58:00",
+    "buyPrice": 33710,
+    "sellPrice": 23927,
+    "input": { "Pile of meds": { "amount": "5", "price": "6742" } },
+    "output": {
+      "Grizzly First Aid Kit (1800/1800)": { "amount": "1", "price": "23927" }
+    },
+    "profit": -9783,
+    "profitHour": "-10120"
+  },
+  {
+    "facility": "Lavatory 1",
+    "name": "Toilet paper",
+    "time": "00:26:00",
+    "buyPrice": 11948,
+    "sellPrice": 9612,
+    "input": { "Printer paper": { "amount": "1", "price": "11948" } },
+    "output": { "Toilet paper": { "amount": "2", "price": "4806" } },
+    "profit": -2336,
+    "profitHour": "-5391"
+  },
+  {
+    "facility": "Nutrition Unit 2",
+    "name": "Max energy",
+    "time": "01:48:00",
+    "buyPrice": 55258,
+    "sellPrice": 47532,
+    "input": {
+      "TarCola": { "amount": "1", "price": "30743" },
+      "Coffee Majaica": { "amount": "1", "price": "14416" },
+      "0.6L water bottle": { "amount": 1, "price": 10099 }
+    },
+    "output": { "Max energy": { "amount": "4", "price": "11883" } },
+    "profit": -7726,
+    "profitHour": "-4292"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "7.62x54R SNB",
+    "time": "01:58:00",
+    "buyPrice": 48509,
+    "sellPrice": 30800,
+    "input": { "Gunpowder \"Hawk\"": { "amount": "1", "price": "48509" } },
+    "output": { "7.62x54R SNB": { "amount": "80", "price": "385" } },
+    "profit": -17709,
+    "profitHour": "-9005"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "Gunpowder \"Eagle\"",
+    "time": "01:37:00",
+    "buyPrice": 78000,
+    "sellPrice": 61113,
+    "input": {
+      "M67 Hand grenade": { "amount": 2, "price": 36000 },
+      "RDG-2B Smoke grenade": { "amount": 1, "price": 6000 }
+    },
+    "output": { "Gunpowder \"Eagle\"": { "amount": "1", "price": "61113" } },
+    "profit": -16887,
+    "profitHour": "-10446"
+  },
+  {
+    "facility": "Intelligence Center 2",
+    "name": "UHF RFID Reader",
+    "time": "53:20:00",
+    "buyPrice": 576045,
+    "sellPrice": 58326,
+    "input": {
+      "Virtex programmable processor": { "amount": "1", "price": "352587" },
+      "TerraGroup Labs access keycard": { "amount": "1", "price": "176812" },
+      "Signal Jammer": { "amount": "2", "price": "23323" }
+    },
+    "output": { "UHF RFID Reader": { "amount": "1", "price": "58326" } },
+    "profit": -517719,
+    "profitHour": "-9707"
+  },
+  {
+    "facility": "Medstation 2",
+    "name": "Morphine injector",
+    "time": "01:12:00",
+    "buyPrice": 23961,
+    "sellPrice": 10481,
+    "input": {
+      "Pile of meds": { "amount": "1", "price": "6742" },
+      "Analgin painkillers": { "amount": "1", "price": "5219" },
+      "Disposable syringe": { "amount": 1, "price": 12000 }
+    },
+    "output": { "Morphine injector": { "amount": "1", "price": "10481" } },
+    "profit": -13480,
+    "profitHour": "-11233"
+  },
+  {
+    "facility": "Lavatory 1",
+    "name": "Aseptic bandage",
+    "time": "00:31:00",
+    "buyPrice": 16548,
+    "sellPrice": 12180,
+    "input": { "Fleece cloth": { "amount": "1", "price": "16548" } },
+    "output": { "Aseptic bandage": { "amount": "6", "price": "2030" } },
+    "profit": -4368,
+    "profitHour": "-8454"
+  },
+  {
+    "facility": "Lavatory 1",
+    "name": "Ripstop cloth",
+    "time": "00:36:00",
+    "buyPrice": 21000,
+    "sellPrice": 14906,
+    "input": { "Scav Vest": { "amount": 3, "price": 7000 } },
+    "output": { "Ripstop cloth": { "amount": "2", "price": "7453" } },
+    "profit": -6094,
+    "profitHour": "-10157"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "Module-3M bodyarmor (40/40)",
+    "time": "00:54:00",
+    "buyPrice": 25998,
+    "sellPrice": 19254,
+    "input": {
+      "Aramid fiber cloth": { "amount": 2, "price": 6000 },
+      "Ripstop cloth": { "amount": 2, "price": 6999 }
+    },
+    "output": {
+      "Module-3M bodyarmor (40/40)": { "amount": "1", "price": "19254" }
+    },
+    "profit": -6744,
+    "profitHour": "-7493"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "Splav Tarzan M22 Rig",
+    "time": "00:46:00",
+    "buyPrice": 21106,
+    "sellPrice": 13063,
+    "input": {
+      "Polyamide fabric Cordura": { "amount": "1", "price": "14107" },
+      "Ripstop cloth": { "amount": 1, "price": 6999 }
+    },
+    "output": { "Splav Tarzan M22 Rig": { "amount": "1", "price": "13063" } },
+    "profit": -8043,
+    "profitHour": "-10491"
+  },
+  {
+    "facility": "Lavatory 1",
+    "name": "Army bandage",
+    "time": "00:16:00",
+    "buyPrice": 23995,
+    "sellPrice": 22550,
+    "input": {
+      "Aseptic bandage": { "amount": 5, "price": 1999 },
+      "Bottle of vodka Tarkovskaya": { "amount": 1, "price": 14000 }
+    },
+    "output": { "Army bandage": { "amount": "10", "price": "2255" } },
+    "profit": -1445,
+    "profitHour": "-5419"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "Electric motor",
+    "time": "01:20:00",
+    "buyPrice": 74999,
+    "sellPrice": 49400,
+    "input": {
+      "Electric drill": { "amount": 2, "price": 27500 },
+      "Flat screwdriver": { "amount": 1, "price": 15000 },
+      "Screwdriver": { "amount": 1, "price": 4999 }
+    },
+    "output": { "Electric motor": { "amount": "1", "price": "49400" } },
+    "profit": -25599,
+    "profitHour": "-19199"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "9x39 mm SP-6",
+    "time": "04:12:00",
+    "buyPrice": 224430,
+    "sellPrice": 203200,
+    "input": {
+      "7.62x39 mm HP": { "amount": "120", "price": "380" },
+      "Gunpowder \"Eagle\"": { "amount": "2", "price": "61113" },
+      "Xenomorph sealing foam": { "amount": "2", "price": "28302" }
+    },
+    "output": { "9x39 mm SP-6": { "amount": "400", "price": "508" } },
+    "profit": -21230,
+    "profitHour": "-5055"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "Zarya stun grenade",
+    "time": "01:17:00",
+    "buyPrice": 60568,
+    "sellPrice": 40670,
+    "input": {
+      "UZRGM grenade fuze": { "amount": 5, "price": 9000 },
+      "Gunpowder \"Kite\"": { "amount": "1", "price": "9568" },
+      "RDG-2B Smoke grenade": { "amount": 1, "price": 6000 }
+    },
+    "output": { "Zarya stun grenade": { "amount": "5", "price": "8134" } },
+    "profit": -19898,
+    "profitHour": "-15505"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "5.45x39 mm 7N39 \"Igolnik\"",
+    "time": "04:47:00",
+    "buyPrice": 238380,
+    "sellPrice": 212420,
+    "input": {
+      "Gunpowder \"Kite\"": { "amount": "2", "price": "9568" },
+      "Gunpowder \"Eagle\"": { "amount": "2", "price": "61113" },
+      "Gunpowder \"Hawk\"": { "amount": "2", "price": "48509" }
+    },
+    "output": {
+      "5.45x39 mm 7N39 \"Igolnik\"": { "amount": "260", "price": "817" }
+    },
+    "profit": -25960,
+    "profitHour": "-5427"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "Capacitors",
+    "time": "02:04:00",
+    "buyPrice": 129998,
+    "sellPrice": 107488,
+    "input": {
+      "Power supply unit": { "amount": 1, "price": 124999 },
+      "Screwdriver": { "amount": 1, "price": 4999 }
+    },
+    "output": { "Capacitors": { "amount": "8", "price": "13436" } },
+    "profit": -22510,
+    "profitHour": "-10892"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "60-round 6L31 5.45x39 magazine for AK-74 and compatibles",
+    "time": "01:23:00",
+    "buyPrice": 57377,
+    "sellPrice": 40985,
+    "input": {
+      "30-round 6L23 5.45x39 magazine for AK-74 and compatibles": {
+        "amount": 4,
+        "price": 2400
+      },
+      "KEKTAPE duct tape": { "amount": 1, "price": 47777 }
+    },
+    "output": {
+      "60-round 6L31 5.45x39 magazine for AK-74 and compatibles": {
+        "amount": "1",
+        "price": "40985"
+      }
+    },
+    "profit": -16392,
+    "profitHour": "-11850"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "Ox bleach",
+    "time": "00:38:00",
+    "buyPrice": 60201,
+    "sellPrice": 49250,
+    "input": {
+      "Soap": { "amount": "1", "price": "14596" },
+      "Heat-exchange alkali surface washer": { "amount": 1, "price": 15000 },
+      "Sodium bicarbonate": { "amount": "1", "price": "30605" }
+    },
+    "output": { "Ox bleach": { "amount": "5", "price": "9850" } },
+    "profit": -10951,
+    "profitHour": "-17291"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "Rechargeable battery",
+    "time": "01:13:00",
+    "buyPrice": 46840,
+    "sellPrice": 27082,
+    "input": {
+      "Flat screwdriver": { "amount": 1, "price": 15000 },
+      "Powerbank": { "amount": "1", "price": "31840" }
+    },
+    "output": { "Rechargeable battery": { "amount": "2", "price": "13541" } },
+    "profit": -19758,
+    "profitHour": "-16239"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "5.56x45mm Warmage",
+    "time": "04:43:00",
+    "buyPrice": 160498,
+    "sellPrice": 48000,
+    "input": {
+      "Gunpowder \"Kite\"": { "amount": "4", "price": "9568" },
+      "Gunpowder \"Eagle\"": { "amount": "2", "price": "61113" }
+    },
+    "output": { "5.56x45mm Warmage": { "amount": "400", "price": "120" } },
+    "profit": -112498,
+    "profitHour": "-23851"
+  },
+  {
+    "facility": "Medstation 3",
+    "name": "Surv12 field surgical kit (15/15)",
+    "time": "01:16:00",
+    "buyPrice": 104995,
+    "sellPrice": 80954,
+    "input": {
+      "Pile of meds": { "amount": "6", "price": "6742" },
+      "A set of tools": { "amount": "1", "price": "64543" }
+    },
+    "output": {
+      "Surv12 field surgical kit (15/15)": { "amount": "2", "price": "40477" }
+    },
+    "profit": -24041,
+    "profitHour": "-18980"
+  },
+  {
+    "facility": "Lavatory 3",
+    "name": "FP-100 filter absorber",
+    "time": "02:36:00",
+    "buyPrice": 133943,
+    "sellPrice": 97275,
+    "input": {
+      "Air filter for gas mask": { "amount": "2", "price": "7267" },
+      "Water filter": { "amount": "2", "price": "27433" },
+      "A set of tools": { "amount": "1", "price": "64543" }
+    },
+    "output": { "FP-100 filter absorber": { "amount": "1", "price": "97275" } },
+    "profit": -36668,
+    "profitHour": "-14103"
+  },
+  {
+    "facility": "Medstation 3",
+    "name": "Propital",
+    "time": "01:21:00",
+    "buyPrice": 112221,
+    "sellPrice": 108962,
+    "input": {
+      "Ibuprofen painkillers (12/12)": { "amount": "1", "price": "25530" },
+      "Golden Star Balm (10/10)": { "amount": "1", "price": "73207" },
+      "Pile of meds": { "amount": "2", "price": "6742" }
+    },
+    "output": { "Propital": { "amount": "7", "price": "15566" } },
+    "profit": -3259,
+    "profitHour": "-2414"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "Clin wiper",
+    "time": "00:40:00",
+    "buyPrice": 29000,
+    "sellPrice": 8045,
+    "input": {
+      "Bottle of vodka Tarkovskaya": { "amount": 1, "price": 14000 },
+      "Schaman shampoo": { "amount": 1, "price": 15000 }
+    },
+    "output": { "Clin wiper": { "amount": "1", "price": "8045" } },
+    "profit": -20955,
+    "profitHour": "-31433"
+  },
+  {
+    "facility": "Medstation 2",
+    "name": "Medical bloodset",
+    "time": "00:27:00",
+    "buyPrice": 40944,
+    "sellPrice": 32742,
+    "input": {
+      "Silicone tube": { "amount": "1", "price": "16944" },
+      "Disposable syringe": { "amount": 2, "price": 12000 }
+    },
+    "output": { "Medical bloodset": { "amount": "1", "price": "32742" } },
+    "profit": -8202,
+    "profitHour": "-18227"
+  },
+  {
+    "facility": "Workbench 3",
+    "name": "9x39 mm 7N12 BP",
+    "time": "04:46:00",
+    "buyPrice": 259240,
+    "sellPrice": 142240,
+    "input": {
+      "Military power filter": { "amount": 2, "price": 81111 },
+      "Gunpowder \"Hawk\"": { "amount": "2", "price": "48509" }
+    },
+    "output": { "9x39 mm 7N12 BP": { "amount": "160", "price": "889" } },
+    "profit": -117000,
+    "profitHour": "-24545"
+  },
+  {
+    "facility": "Nutrition Unit 1",
+    "name": "Can of beef stew",
+    "time": "01:18:00",
+    "buyPrice": 71900,
+    "sellPrice": 26600,
+    "input": {
+      "Can of delicious beef stew": { "amount": 1, "price": 13900 },
+      "Squash spread": { "amount": 1, "price": 28000 },
+      "Rye croutons": { "amount": 1, "price": 30000 }
+    },
+    "output": { "Can of beef stew": { "amount": "2", "price": "13300" } },
+    "profit": -45300,
+    "profitHour": "-34846"
+  },
+  {
+    "facility": "Nutrition Unit 1",
+    "name": "Iskra lunch box",
+    "time": "00:48:00",
+    "buyPrice": 60998,
+    "sellPrice": 31384,
+    "input": {
+      "Army Crackers": { "amount": 2, "price": 9999 },
+      "Can of beef stew": { "amount": 1, "price": 13000 },
+      "Squash spread": { "amount": 1, "price": 28000 }
+    },
+    "output": { "Iskra lunch box": { "amount": "2", "price": "15692" } },
+    "profit": -29614,
+    "profitHour": "-37018"
+  },
+  {
+    "facility": "Workbench 2",
+    "name": "Car battery",
+    "time": "02:46:00",
+    "buyPrice": 1293022,
+    "sellPrice": 1215525,
+    "input": {
+      "6-STEN-140-M military battery": { "amount": 1, "price": 1250000 },
+      "Leatherman Multitool": { "amount": "1", "price": "43022" }
+    },
+    "output": { "Car battery": { "amount": "5", "price": "243105" } },
+    "profit": -77497,
+    "profitHour": "-28011"
+  },
+  {
+    "facility": "Nutrition Unit 3",
+    "name": "Bottle of vodka Tarkovskaya",
+    "time": "01:35:00",
+    "buyPrice": 250394,
+    "sellPrice": 158900,
+    "input": {
+      "\"Fierce Hatchling\" moonshine": { "amount": 1, "price": 199899 },
+      "0.6L water bottle": { "amount": 5, "price": 10099 }
+    },
+    "output": {
+      "Bottle of vodka Tarkovskaya": { "amount": "10", "price": "15890" }
+    },
+    "profit": -91494,
+    "profitHour": "-57786"
+  },
+  {
+    "facility": "Lavatory 2",
+    "name": "Expeditionary fuel tank (60/60)",
+    "time": "00:44:00",
+    "buyPrice": 106570,
+    "sellPrice": 39972,
+    "input": {
+      "Zibbo lighter": { "amount": "10", "price": "9325" },
+      "Crickent lighter": { "amount": "8", "price": "1665" }
+    },
+    "output": {
+      "Expeditionary fuel tank (60/60)": { "amount": "1", "price": "39972" }
+    },
+    "profit": -66598,
+    "profitHour": "-90815"
+  },
+  {
+    "facility": "Medstation 2",
+    "name": "Combat stimulant injector SJ1 TGLabs",
+    "time": "00:49:00",
+    "buyPrice": 235231,
+    "sellPrice": 107095,
+    "input": {
+      "Pile of meds": { "amount": "7", "price": "6742" },
+      "Saline solution": { "amount": 2, "price": 67778 },
+      "Propital": { "amount": 3, "price": 14000 },
+      "Morphine injector": { "amount": "1", "price": "10481" }
+    },
+    "output": {
+      "Combat stimulant injector SJ1 TGLabs": {
+        "amount": "5",
+        "price": "21419"
+      }
+    },
+    "profit": -128136,
+    "profitHour": "-156901"
+  },
+  {
+    "facility": "Workbench 1",
+    "name": "Broken LCD",
+    "time": "00:22:00",
+    "buyPrice": 97903,
+    "sellPrice": 31740,
+    "input": {
+      "Working LCD": { "amount": "4", "price": "23226" },
+      "Screwdriver": { "amount": 1, "price": 4999 }
+    },
+    "output": { "Broken LCD": { "amount": "4", "price": "7935" } },
+    "profit": -66163,
+    "profitHour": "-180445"
+  },
+  {
+    "facility": "Lavatory 1",
+    "name": "Air filter for gas mask",
+    "time": "00:02:00",
+    "buyPrice": 17140,
+    "sellPrice": 7267,
+    "input": { "GP-5 gasmask": { "amount": "1", "price": "17140" } },
+    "output": { "Air filter for gas mask": { "amount": "1", "price": "7267" } },
+    "profit": -9873,
+    "profitHour": "-296190"
+  }
+]
