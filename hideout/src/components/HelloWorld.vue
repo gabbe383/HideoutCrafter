@@ -36,7 +36,7 @@
         <template v-slot:expanded-item="{ headers, item }">
           <td :colspan="headers.length">
             <h2 v-for="(x, index) in item.input" :key="index">
-              {{ x.amount }} {{ index }} {{ x.price }}₽
+              {{ x.Amount }} {{ index }} {{ x.Price }}₽
             </h2>
           </td>
         </template></v-data-table
