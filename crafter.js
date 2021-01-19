@@ -1,5 +1,6 @@
 const fetch = require("node-fetch");
 fs = require("fs");
+const moment = require("moment");
 
 crafts = [];
 let skip = 0;
@@ -81,15 +82,19 @@ function getPrices(arg) {
           // profit = addDot(profit);
           // profitHour = addDot(profitHour);
 
+          if (crafts.length == 0) {
+            let today = moment().format("MMMM Do YYYY, HH:mm");
+            crafts.push({ name: today });
+          }
           crafts.push({
             facility: short.facility.name + " " + short.facility.level,
             name: short.output.name,
             time: short.time,
-            buyPrice: buyPrice,
+            buyPrice: buyPrice.toFixed(0),
             sellPrice: sellPrice,
             input: inputDict,
             output: outputDict,
-            profit: profit,
+            profit: profit.toFixed(0),
             profitHour: profitHour,
           });
         }
