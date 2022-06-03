@@ -13,7 +13,7 @@
         ></v-text-field>
       </v-card-title>
       <v-data-table
-        item-key="profit"
+        item-key="id"
         :headers="headers"
         :items="crafts"
         :items-per-page="crafts.length"
@@ -58,8 +58,6 @@
 </template>
 
 <script>
-import moment from "moment";
-import json from "../Prices.json";
 export default {
   name: "HelloWorld",
 
@@ -82,12 +80,15 @@ export default {
         { text: "Profit / Hour (₽/h)", value: "profitHour" },
       ],
       crafts: [],
-      myJson: json,
       skip: 0,
     };
   },
   created() {
     this.getPrices();
+  },
+  mounted() {
+    this.stations =
+      JSON.parse(localStorage.getItem("stations")) || this.stations;
   },
   computed: {
     log(arg) {
@@ -98,6 +99,14 @@ export default {
     getColor(i) {
       if (i < 0) return "red";
       else return "green";
+    },
+    update() {
+      this.stations =
+        JSON.parse(localStorage.getItem("stations")) || this.stations;
+      console.log("updatatererig");
+      this.skip = 0;
+      this.crafts = [];
+      this.getPrices();
     },
     getPrices(arg) {
       let url;
@@ -112,6 +121,7 @@ export default {
           "https://tarkov-market.com/api/hideout?lang=en&search=&tag=&sort=profitMinusFeeByHour&hideoutUseAvgPrice=undefined&sort_direction=desc&skip=" +
           this.skip;
       }
+      // console.log(url);
 
       fetch(url, {
         headers: {
@@ -137,8 +147,13 @@ export default {
           return response.json();
         })
         .then((data) => {
-          if (data.recipes.length > 0) {
+          if (data.recipes.length > 18) {
+            data.recipes =
+              data.recipes.substring(0, 9) + data.recipes.substring(18);
+            data.recipes = atob(data.recipes);
+            data.recipes = JSON.parse(decodeURIComponent(data.recipes));
             let x;
+            // console.log(data.recipes);
             for (x in data.recipes) {
               let short;
               short = data.recipes[x];
@@ -171,20 +186,22 @@ export default {
                 amount: short.output.amount.toFixed(0),
                 price: short.output.avgDayPrice.toFixed(0),
               };
+              let id = short.uid;
 
               var hms = short.time;
               var a = hms.split(":");
               var hours = (a[0] * 60 + +a[1]) / 60;
 
               let profitHour = (profit / hours).toFixed(0);
-              // buyPrice = addDot(buyPrice);
-              // sellPrice = addDot(sellPrice);
-              // profit = addDot(profit);
-              // profitHour = addDot(profitHour);
-              if (Object.keys(this.crafts).length == 0) {
-                let today = moment().format("MMMM Do YYYY, HH:mm");
-                this.crafts.push({ name: today });
+
+              if (
+                this.stations[short.facility.name] &&
+                parseInt(this.stations[short.facility.name].current) <
+                  short.facility.level
+              ) {
+                continue;
               }
+
               this.crafts.push({
                 facility: short.facility.name + " " + short.facility.level,
                 name: short.output.name,
@@ -195,16 +212,12 @@ export default {
                 output: outputDict,
                 profit: profit.toFixed(0),
                 profitHour: profitHour,
+                id: id,
               });
             }
 
             this.skip += 20;
             this.getPrices(arg);
-          } else {
-            // fs.writeFile("Prices.json", JSON.stringify(crafts), function(err) {
-            // if (err) return console.log(err);
-            // console.log("Saved");
-            // });
           }
         });
     },
