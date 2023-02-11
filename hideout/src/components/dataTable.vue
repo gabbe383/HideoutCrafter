@@ -149,7 +149,7 @@ export default {
         .then((data) => {
           if (data.recipes.length > 18) {
             data.recipes =
-              data.recipes.substring(0, 9) + data.recipes.substring(18);
+              data.recipes.substring(9, data.recipes.length);
             data.recipes = atob(data.recipes);
             data.recipes = JSON.parse(decodeURIComponent(data.recipes));
             let x;
