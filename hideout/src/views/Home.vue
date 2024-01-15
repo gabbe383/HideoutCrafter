@@ -14,14 +14,14 @@ export default {
   name: "Home",
   components: {
     dataTable,
-    facInfo,
+    facInfo
   },
   methods: {
     update() {
       console.log("updateing");
       this.$refs.table.update();
-    },
-  },
+    }
+  }
 };
 </script>
 <style>

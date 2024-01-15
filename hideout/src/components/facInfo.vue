@@ -8,8 +8,7 @@
         <v-text-field
           type="number"
           :rules="[
-            (v) =>
-              (v && v <= lvl.max) || 'Cannot exceed max level of ' + lvl.max,
+            v => (v && v <= lvl.max) || 'Cannot exceed max level of ' + lvl.max
           ]"
           v-model="lvl.current"
         />
@@ -29,8 +28,8 @@ export default {
       Medstation: { current: 0, max: 3 },
       "Intelligence Center": { current: 0, max: 3 },
       "Booze Generator": { current: 0, max: 1 },
-      "Water Collector": { current: 0, max: 3 },
-    },
+      "Water Collector": { current: 0, max: 3 }
+    }
   }),
   mounted() {
     this.stations =
@@ -42,9 +41,9 @@ export default {
         localStorage.setItem("stations", JSON.stringify(this.stations));
         this.$emit("update");
       },
-      deep: true,
-    },
-  },
+      deep: true
+    }
+  }
 };
 </script>
 

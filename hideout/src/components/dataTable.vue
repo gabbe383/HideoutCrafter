@@ -47,8 +47,8 @@
             <h3 v-for="(x, index) in item.output" :key="index">
               {{ x.amount }} {{ index }} {{ x.price }}₽
             </h3>
-            <h3 >
-             {{ item.require[0] }}
+            <h3>
+              {{ item.require[0] }}
             </h3>
           </td>
         </template></v-data-table
@@ -80,10 +80,10 @@ export default {
         { text: "Time", value: "time" },
         { text: "Sell Price (₽)", value: "sellPrice" },
         { text: "Profit (₽)", value: "profit" },
-        { text: "Profit / Hour (₽/h)", value: "profitHour" },
+        { text: "Profit / Hour (₽/h)", value: "profitHour" }
       ],
       crafts: [],
-      skip: 0,
+      skip: 0
     };
   },
   created() {
@@ -96,7 +96,7 @@ export default {
   computed: {
     log(arg) {
       return arg;
-    },
+    }
   },
   methods: {
     getColor(i) {
@@ -138,13 +138,13 @@ export default {
           "sec-fetch-mode": "cors",
           "sec-fetch-site": "same-origin",
           cookie:
-            "uid=3ad961b4-81e0-40e6-8b9c-b967d18a6b1e; __cfduid=d15052228b2a42c68b5f080137eb7afc51609707645; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJkZGI4ODgwNC1kYmNmLTQ2NDAtOTkyNS1lOTNlNTg1ODkxZWEiLCJwYXRyZW9uVXNlcklkIjoiMzI0NDczNzEiLCJuYW1lIjoiR2FicmllbCBCZXJnZGFobCIsImVtYWlsIjoiZ2FicmllbC5iZXJnZGFobEBnbWFpbC5jb20iLCJwcm8iOmZhbHNlLCJ1cGRhdGVkIjoiMjAyMS0wMS0wNFQwNDowNToxMC43NzdaIiwiaWF0IjoxNjA5NzMzMTEwfQ.-dBwzlfZCBXjLgGDlc-c_pVjTEsb7sMFT6vrVCkL17U",
+            "uid=3ad961b4-81e0-40e6-8b9c-b967d18a6b1e; __cfduid=d15052228b2a42c68b5f080137eb7afc51609707645; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJkZGI4ODgwNC1kYmNmLTQ2NDAtOTkyNS1lOTNlNTg1ODkxZWEiLCJwYXRyZW9uVXNlcklkIjoiMzI0NDczNzEiLCJuYW1lIjoiR2FicmllbCBCZXJnZGFobCIsImVtYWlsIjoiZ2FicmllbC5iZXJnZGFobEBnbWFpbC5jb20iLCJwcm8iOmZhbHNlLCJ1cGRhdGVkIjoiMjAyMS0wMS0wNFQwNDowNToxMC43NzdaIiwiaWF0IjoxNjA5NzMzMTEwfQ.-dBwzlfZCBXjLgGDlc-c_pVjTEsb7sMFT6vrVCkL17U"
         },
         referrer: "https://tarkov-market.com/hideout",
         referrerPolicy: "strict-origin-when-cross-origin",
         body: null,
         method: "GET",
-        mode: "cors",
+        mode: "cors"
       })
         .then(response => {
           return response.json();
@@ -153,8 +153,9 @@ export default {
           if (data.recipes.length > 18) {
             data.recipes = data.recipes.substring(9, data.recipes.length);
             data.recipes = atob(data.recipes);
-            data.recipes = decodeURIComponent(data.recipes)
-            data.recipes = "[{" + data.recipes.substring(3, data.recipes.length);
+            data.recipes = decodeURIComponent(data.recipes);
+            data.recipes =
+              "[{" + data.recipes.substring(3, data.recipes.length);
             // console.log(data.recipes)
             data.recipes = JSON.parse(data.recipes);
             let x;
@@ -169,7 +170,7 @@ export default {
                 if (short.input[y].price > short.input[y].avgDayPrice) {
                   inputDict[short.input[y].name] = {
                     amount: short.input[y].amount.toFixed(0),
-                    price: short.input[y].avgDayPrice.toFixed(0),
+                    price: short.input[y].avgDayPrice.toFixed(0)
                   };
 
                   buyPrice +=
@@ -178,7 +179,7 @@ export default {
                   buyPrice += short.input[y].amount * short.input[y].price;
                   inputDict[short.input[y].name] = {
                     amount: short.input[y].amount,
-                    price: short.input[y].price,
+                    price: short.input[y].price
                   };
                 }
               }
@@ -188,7 +189,7 @@ export default {
               let outputDict = {};
               outputDict[short.output.name] = {
                 amount: short.output.amount.toFixed(0),
-                price: short.output.avgDayPrice.toFixed(0),
+                price: short.output.avgDayPrice.toFixed(0)
               };
               let id = short.uid + this.skip + Math.random;
 
@@ -225,8 +226,8 @@ export default {
             this.getPrices(arg);
           }
         });
-    },
-  },
+    }
+  }
 };
 </script>
 <style></style>
