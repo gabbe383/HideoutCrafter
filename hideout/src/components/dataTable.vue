@@ -47,6 +47,9 @@
             <h3 v-for="(x, index) in item.output" :key="index">
               {{ x.amount }} {{ index }} {{ x.price }}₽
             </h3>
+            <h3 >
+             {{ item.require[0] }}
+            </h3>
           </td>
         </template></v-data-table
       >
@@ -70,7 +73,7 @@ export default {
           text: "Name",
           align: "start",
           sortable: false,
-          value: "name",
+          value: "name"
         },
         { text: "Facility", value: "facility" },
         { text: "Buy Price (₽)", value: "buyPrice" },
@@ -143,17 +146,18 @@ export default {
         method: "GET",
         mode: "cors",
       })
-        .then((response) => {
+        .then(response => {
           return response.json();
         })
-        .then((data) => {
+        .then(data => {
           if (data.recipes.length > 18) {
-            data.recipes =
-              data.recipes.substring(9, data.recipes.length);
+            data.recipes = data.recipes.substring(9, data.recipes.length);
             data.recipes = atob(data.recipes);
-            data.recipes = JSON.parse(decodeURIComponent(data.recipes));
+            data.recipes = decodeURIComponent(data.recipes)
+            data.recipes = "[{" + data.recipes.substring(3, data.recipes.length);
+            // console.log(data.recipes)
+            data.recipes = JSON.parse(data.recipes);
             let x;
-            // console.log(data.recipes);
             for (x in data.recipes) {
               let short;
               short = data.recipes[x];
@@ -186,7 +190,7 @@ export default {
                 amount: short.output.amount.toFixed(0),
                 price: short.output.avgDayPrice.toFixed(0),
               };
-              let id = short.uid;
+              let id = short.uid + this.skip + Math.random;
 
               var hms = short.time;
               var a = hms.split(":");
@@ -213,6 +217,7 @@ export default {
                 profit: profit.toFixed(0),
                 profitHour: profitHour,
                 id: id,
+                require: short.require
               });
             }
 
